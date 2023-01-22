@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" width="1088" height="1298" viewBox="0 0 200 200">
+  <defs>
+    <clipPath id="shield_282520156">
+      <path d="M 25,15 100,200 175,15 Z"/>
+    </clipPath>
+    <clipPath id="division_282520156">
+      <polygon points="0,200 100,100 200,200"/>
+    </clipPath>
+    <radialGradient id="spotlight" cx="35%" cy="35%" r="100%">
+      <stop stop-color="#fff" stop-opacity=".3" offset="0"/>
+      <stop stop-color="#fff" stop-opacity=".15" offset=".2"/>
+      <stop stop-color="#000" stop-opacity="0" offset=".7"/>
+    </radialGradient>
+    <g id="inescutcheonHorsehead2" author="Azgaar" license="https://creativecommons.org/publicdomain/zero/1.0">
+      <path transform="translate(67 67) scale(.33)" d="M60 20c-5 20-10 35-35 55 25 35 35 65 30 100 20 0 35 10 45 26 10-16 30-26 45-26-5-35 5-65 30-100a87 87 0 01-35-55c-25 3-55 3-80 0z"/>
+    </g>
+    <g id="mulletFaceted" author="Azgaar" license="https://creativecommons.org/publicdomain/zero/1.0">
+      <path d="M100 60l8.98 27.64h29.06l-23.51 17.08 8.98 27.64L100 115.28l-23.51 17.08 8.98-27.64-23.51-17.08h29.06z"/>
+      <path fill="#000" fill-opacity=".2" stroke-width=".2" d="M100 100V60l8.98 27.64L100 100l38.04-12.36-23.51 17.08L100 100l23.51 32.36L100 115.28V100l-23.51 32.36 8.98-27.64L100 100 61.96 87.64h29.06z"/>
+    </g>
+  </defs>
+  <g clip-path="url(#shield_282520156)">
+    <rect class="field" x="0" y="0" width="200" height="200" fill="#377cd7"/>
+    <g class="division" clip-path="url(#division_282520156)">
+      <rect x="0" y="0" width="200" height="200" fill="#d7374a"/>
+    </g>
+    <g class="ordinary" i="0" fill="#fafafa" stroke="none" stroke-width="1">
+      <polygon points="85,0 85,85 0,85 0,115 85,115 85,200 115,200 115,115 200,115 200,85 115,85 115,0"/>
+    </g>
+    <g class="charge" i="0" charge="inescutcheonHorsehead2" fill="#333333" stroke="#000">
+      <use xlink:href="#inescutcheonHorsehead2" transform="translate(10 10) scale(0.9)"/>
+    </g>
+    <g class="charge" i="1" charge="mulletFaceted" fill="#d7374a" stroke="#000">
+      <use xlink:href="#mulletFaceted" transform="translate(55 55) scale(0.45)"/>
+    </g>
+  </g>
+  <path class="grad" d="M 25,15 100,200 175,15 Z" fill="url(#spotlight)" stroke="#333333" stroke-width="1" style="pointer-events: none;"/>
+</svg>
